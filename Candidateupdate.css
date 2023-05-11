@@ -1,0 +1,27 @@
+.main3{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../updateimg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.btn_edit{
+    width: 180px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #c04b54;
+    color: rgb(224, 217, 217);
+    font-size: 25px;
+    border: none;
+  }
+  input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff;
+  }

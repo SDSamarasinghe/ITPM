@@ -1,0 +1,61 @@
+.main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../background1.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .title {
+    font-size: 95px;
+  }
+  .subtitle {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .intro-text {
+    width: 100%;
+    text-align: center;
+  }
+  .photo {
+    height: 400px;
+    width: 800px; 
+    margin-bottom:25px;
+    
+}
+
+
+.homebutton1{
+  width: 380px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #70b634;
+  color: white;
+  font-size: 25px;
+  border: none;
+  display: inline-flex;
+  margin-top: 50px;
+}
+.homebutton2{
+  width: 350px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #70b634;
+  color: white;
+  font-size: 25px;
+  border: none;
+  display: inline-flex;
+  margin-top: 50px;
+}
+.homebutton3{
+  width: 500px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #70b634;
+  color: white;
+  font-size: 25px;
+  border: none;
+  display: inline-flex;
+  margin-top: 50px;
+}

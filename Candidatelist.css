@@ -1,0 +1,18 @@
+.main2{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../updateimg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.btn_add{
+    width: 280px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #056d22;
+    color: white;
+    font-size: 25px;
+    border: none;
+  }

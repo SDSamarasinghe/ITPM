@@ -1,0 +1,17 @@
+.main1{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../updateimg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btn_save{
+    width: 180px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #92bff0;
+    color: rgb(15, 7, 7);
+    font-size: 25px;
+    border: none;
+  }
