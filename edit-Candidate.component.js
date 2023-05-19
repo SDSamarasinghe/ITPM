@@ -150,7 +150,7 @@ export default class EditCandidate extends Component {
             <div >
             <nav className = "navbar navbar-dark bg-dark-nav navbar-expand-lg d-flex" style={{background:"rgb(85 0 114)"}}>
             <Link to = "/" 
-            className = "navbar-brand text-center flex-grow-1" ><font face = "Lato" size ="10">UPDATE CANDIDATE </font></Link> 
+            className = "navbar-brand text-center flex-grow-1" ><font face = "Lato" size ="10">Update Candidates </font></Link> 
             <div className = "collpase navbar-collapse flex-grow-0" >
             <form class="form-inline my-2 my-lg-0">
             <ul className = "navbar-nav mr-auto" >
