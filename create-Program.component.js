@@ -4,6 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import swal from '@sweetalert/with-react';
 import Container from 'react-bootstrap/esm/Container';
 //import "./vacancyadd.css"
+import "./programadd.css";
 
 
 export default class CreateProgram extends Component {
@@ -85,9 +86,9 @@ export default class CreateProgram extends Component {
                 <Container>
 
             <div>
-            <nav className = "navbar navbar-dark bg-dark-nav navbar-expand-lg d-flex" style={{background:"green"}}>
+            <nav className = "navbar navbar-dark bg-dark-nav navbar-expand-lg d-flex" style={{background:"lightblue"}}>
             <div  
-            className = "navbar-brand text-center flex-grow-1" ><font face = "Lato" size ="10"> ADD NEW PROGRAM </font></div> 
+            className = "navbar-brand text-center flex-grow-1" ><font face = "Lato" size ="10"><font color="black">ADD NEW PROGRAM </font> </font></div> 
             <div className = "collpase navbar-collapse flex-grow-0" >
             <form class="form-inline my-2 my-lg-0">
             <ul className = "navbar-nav mr-auto" >
@@ -95,13 +96,15 @@ export default class CreateProgram extends Component {
             </form>
             </div > </nav>
             </div>
-            <br></br><br></br>
-
+            <br></br><br></br><br></br><br></br>
+           
 
             <div class = "row" >
             <div class = "col-6" >
             <br/ > < br/ > < br/ > < br/ > < br/ > < br/ >
-           
+            <img src = "https://c.tenor.com/L5g2mZgoLykAAAAS/office-of-course.gif"
+            width = "90%"
+            height = "60% " />
             </div> <div class = "col-6" >
             <div class = "myformstyle2" >
             <div className = "card-body" >
@@ -143,7 +146,7 @@ export default class CreateProgram extends Component {
             
             
             
-            
+            <br></br>
             </div > <div className = "form-group text-right" >
             <center><input type = "submit"  value = "Save" className = "btn_save" ></input></center>
             </div> </form > </div> </div >  </div> </div >  <br/ > < br/ > 
